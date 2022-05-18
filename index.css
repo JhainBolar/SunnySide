@@ -1,0 +1,564 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Space+Mono&family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;700&family=Fraunces:opsz,wght@9..144,100;9..144,700&family=Space+Mono&family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;700&family=Fraunces:opsz,wght@9..144,100&family=Space+Mono&family=Square+Peg&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none; 
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin: .5em;
+    color: white;
+}
+.toggle-btn{
+    position: absolute;
+    top: 1.2rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 30px;
+    
+}
+.toggle-btn img{
+    
+    width: 100%;
+}
+.ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.ul div, button{
+    display: block;
+    margin: 0 40px;
+    padding:  1rem;
+}
+.container-1{
+    background-image: url(./image-header.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: bottom;
+    background-size: cover;
+    font-family: 'Barlow', sans-serif;
+}
+.ul button{
+    /* margin: 0 40px; */
+    margin-top: 10px;
+    color: black;
+    width: 90px;
+    height: 30px;
+    line-height: 5px;
+    border-radius: 20px;
+    height: 30px;
+    text-transform: uppercase;
+    border: none;
+    font-size: 10px;
+    font-weight: 700;
+    background-color: white;
+}
+.body-h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+}
+.arrow{
+    margin-top: 90px;
+}
+.mobile-img{
+    display: none;
+}
+.body-h1 h1{
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 20px;
+    word-spacing: 10px;
+    letter-spacing: 15px;
+    font-family: 'Fraunces', serif;
+    font-weight: bolder;
+}
+.forny-inner, .forny-inner-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #fffbf8;
+    height: 75vh;
+  }
+  .row, .text{
+  position: relative;
+  flex: 1;
+  
+  
+  }
+  .row{
+      background-image: url(./image-transform.jpg);
+    width: 100%;
+    background-size: 100% 100%;
+  }
+  .row-2{
+      background-image: url(./image-stand-out.jpg);
+      width: 100%;
+    background-size: 100% 100%;
+
+  }
+  .row-2, .text-3{
+
+    position: relative;
+    flex: 1;
+  }
+  .row-2 img{
+    height: 500px;
+    /* width: 462px; */
+    width: 100%;
+  }
+
+  
+  
+  
+  .text, .text-3{
+   
+    display: flex;
+    flex-direction: column;
+    margin: auto !important; 
+   
+    padding: 1px;
+    justify-content: center;
+    margin-top: 10px;
+    
+  }
+  .text h1, p, h4{
+    margin-left: 40px !important;
+    margin-top: 50px;
+  }
+  .text h6, .text-3 h6{
+      font-size: 1.6rem !important;
+      font-family: 'Barlow', sans-serif;
+      font-weight: bold;
+      margin-left: 40px;
+      margin-top: 10px;
+
+  }
+  .text-3 h1, p, h4{
+    margin-left: 40px !important;
+  }
+  
+  .text-3 p, .text p{
+   
+    margin-top: 40px;
+    width: 60%;
+    line-height: 24px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 510;
+    color: #3E4C5B;
+  }
+  .forny-inner-3{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #fffbf8;
+    height: 75vh;
+  }
+  .row-p, .row-m{
+    
+    background-size: 100% 100%;
+    height: 70vh;
+    position: relative;
+    flex: 1;
+  }
+  .row-p{
+      background-image: url(./image-graphic-design.jpg);
+  }
+  .row-m{
+      background-image: url(./image-photography.jpg);
+  }
+  .graphic-text, .photography-text {
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+     position: absolute;
+     bottom: 40px;
+  }
+  .graphic-text h3, .photography-text h3{
+      text-align: center;
+      font-size: 30px;
+  }
+  .graphic-text span, .photography-text span{
+      text-align: center;
+      justify-content: center;
+      display: flex;
+      font-size: 20px;
+      width: 50%;
+      margin: auto;
+      line-height: 34px; 
+      font-family: 'Fraunces' serif;
+      color: #19536B;
+  }
+  .photography-text span{
+    color: #25564B !important;
+  }
+  .container-5{
+    
+    background-color: #fffbf8;
+    
+}
+.container-5 h1{
+    text-align: center;
+    margin: auto;
+    margin-top: 80px;
+}
+.testimonial{
+    padding: 70px;
+}
+.testimonial h1{
+    text-transform: uppercase;
+    color: #A7ABAE;
+    font-family: 'Barlow' serif;
+}
+.inside-testimonial{
+    display: flex;
+    margin-top: 100px;
+}
+.testimonial-1 img{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.testimonial-2 img{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.testimonial-3 img{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.testimonial-1 h6, h4, h5{
+    text-align: center;
+    width: 60%;
+    font-size: 15px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    line-height: 25px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+.testimonial-1 h4{
+    margin-top: 30px !important;
+    font-weight: bolder !important;
+   
+
+}
+.testimonial-1 h4, .testimonial-2 h4, .testimonial-3 h4{
+    margin-left: auto !important;
+}
+.testimonial-2 h6, h4, h5{
+    text-align: center;
+    width: 60%;
+    font-size: 15px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    line-height: 25px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+.testimonial-2 h4{
+    margin-top: 30px !important;
+    font-weight: bolder !important;
+    
+}
+.testimonial-3 h6, h4, h5{
+    text-align: center;
+    width: 60%;
+    font-size: 15px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    line-height: 25px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+.testimonial-3 h4{
+    margin-top: 30px !important;
+    font-weight: bolder !important;
+    
+
+}
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Create four equal columns */
+  .column-1, .column-2, .column-3, .column-4{
+    flex: 25%;
+    
+  }
+  .column-1{
+      background-image: url(./image-gallery-milkbottles.jpg);
+      width: 100%;
+    background-size: 100% 100%;
+    height: 40vh;
+  }
+  .column-2{
+    background-image: url(./image-gallery-orange.jpg);
+    width: 100%;
+    background-size: 100% 100%;
+    height: 40vh;
+}
+.column-3{
+    background-image: url(./image-gallery-cone.jpg);
+    width: 100%;
+    background-size: 100% 100%;
+    height: 40vh;
+}
+.column-4{
+    background-image: url(./image-gallery-sugarcubes.jpg);
+    width: 100%;
+    background-size: 100% 100%;
+    height: 40vh;
+}
+.container-7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+   
+    background-color: #90d4c5;
+;
+}
+.logo-footer {
+    margin-top: 30px;
+    color: #22443D;
+    font-family: 'Fraunces' sans-serif;
+}
+.nav-footer span{
+    margin: 0 40px;
+    
+}
+.logo-footer{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.logo-footer img{
+    margin-left: 20px;
+}
+  
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+  @media screen and (max-width: 992px) {
+    .column-1, .column-2, .column-3, .column-4 {
+      flex: 50%;
+    }
+  }
+
+@media screen and (max-width: 850px) {
+    .ul.active{
+        display: flex;
+        background-color: #fffbf8;
+        width: 80%;
+        margin: auto;
+        height: 30vh;
+    }
+    .toggle-btn{
+        display: flex;
+    }
+    .ul{
+         display: none; 
+        flex-direction: column;
+        width: 100%;
+    } 
+    .nav{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .ul div, button{
+        text-align: center;
+    }
+    .ul button{
+        margin-top: 10px !important;
+        color: black;
+        width: 90px;
+        height: 30px;
+        line-height: 5px;
+        border-radius: 20px;
+        height: 30px;
+        text-transform: uppercase;
+        border: none;
+        font-size: 10px;
+        font-weight: 700;
+        background-color:#FAD400;
+        align-items: center;
+        margin: auto;
+    }
+
+    .body-h1 h1{
+        font-size: 30px;
+    }
+    .text h6, .text-3 h6{
+        font-size: 1.3rem !important;
+        font-family: 'Barlow', sans-serif;
+        font-weight: bold;
+       margin: auto !important;
+  
+    }
+    .forny-inner{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 150vh;
+      }
+      .forny-inner-2{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse !important;
+        height: 150vh;
+      }
+      .forny-inner-3{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse !important;
+        height: 150vh;
+      }
+      
+      .text p, .text-3 p{
+        width: 90%;
+        text-align: center;
+        margin-left: 10px !important;
+      }
+      .text h1 , .text-3 h1{
+        font-size: 25px;
+        margin-top: 50px;
+        text-align: center;
+        margin-left: -4px !important;
+        width: 100%;
+        
+        
+      }
+      .text h1 br{
+        display: none;
+      }
+      .text h4, .text-3 h4{
+        margin-bottom: 100px;
+        text-align: center;
+        margin-left: -10px !important;
+      }
+     
+    
+}
+@media screen  and (max-width: 450px){
+    .text h6, .text-3 h6{
+        font-size: 1.3rem !important;
+        font-family: 'Barlow', sans-serif;
+        font-weight: bold;
+       /* margin-left: auto !important; */
+  
+    }
+}
+@media screen and (max-width: 380px) {
+    .container-1{
+        background-image: url(./image-header-mobile.jpg);
+        height: 100vh;
+        width: 100%;
+        background-position: bottom;
+        background-size: cover;
+        overflow: hidden;
+        font-family: 'Barlow', sans-serif;
+    }
+    .forny-inner, .forny-inner-2, .forny-inner-3{
+        height: 100vh;
+    }
+    .row{
+        background-image: url(./image-transform-mobile.jpg);
+    }
+    .row-2{
+        background-image: url(./image-stand-out-mobile.jpg);
+    }
+    .row-p{
+        background-image: url(./image-graphic-design-mobile.jpg);
+
+    }
+    .row-m{
+        background-image: url(./image-photography-mobile.jpg);
+    }
+    .graphic-text, .photography-text{
+        bottom: 8px;
+    }
+    .graphic-text h3, .photography-text h3{
+        font-size: 25px;
+    }
+    .graphic-text span, .photography-text span{
+        font-size: 20px;
+        width: 100%;
+    }
+    .container-5{
+        width: 100%;
+    }
+    .inside-testimonial{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .testimonial-1 h6, .testimonial-2 h6, .testimonial-3 h6 {
+        width: 100%;
+}
+.testimonial h1 {
+    font-size: 16px;
+    width: 100%;
+}
+.column-1{
+    background-image: url(./image-gallery-milkbottles-mobile.jpg);
+    height: 35vh;
+}
+.column-2{
+    background-image: url(./image-gallery-cone-mobile.jpg);
+    height: 35vh;
+}
+.column-3{
+    background-image: url(./image-gallery-orange-mobile.jpg);
+    height: 35vh;
+}
+.column-4{
+    background-image: url(./image-gallery-sugar-cubes-mobile.jpg);
+    height: 35vh;
+}
+.nav-footer{
+    width: 100%;
+    display: flex;
+}
+}
